@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8ys-Cr-ETl">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="dtV-O7-MAi">
+            <objects>
+                <viewController id="8ys-Cr-ETl" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="i2R-ft-ayV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Church Landing Page" translatesAutoresizingMaskIntoConstraints="NO" id="y6d-Q3-AVE">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="roo-ba-65G">
+                                <rect key="frame" x="20" y="618" width="335" height="29"/>
+                                <string key="text">Copyright 2018-2019 Transformation Church International.INC 
+All rights reserved.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="roo-ba-65G" firstAttribute="leading" secondItem="i2R-ft-ayV" secondAttribute="leading" constant="20" id="97G-SN-v84"/>
+                            <constraint firstItem="Nu0-bm-j1t" firstAttribute="trailing" secondItem="roo-ba-65G" secondAttribute="trailing" constant="20" id="9Zc-kv-bc9"/>
+                            <constraint firstItem="y6d-Q3-AVE" firstAttribute="bottom" secondItem="Nu0-bm-j1t" secondAttribute="bottom" id="Qsm-Aj-Uxz"/>
+                            <constraint firstItem="y6d-Q3-AVE" firstAttribute="trailing" secondItem="Nu0-bm-j1t" secondAttribute="trailing" id="ev5-zS-5Jo"/>
+                            <constraint firstItem="y6d-Q3-AVE" firstAttribute="leading" secondItem="Nu0-bm-j1t" secondAttribute="leading" id="jAF-p7-OKH"/>
+                            <constraint firstItem="y6d-Q3-AVE" firstAttribute="top" secondItem="i2R-ft-ayV" secondAttribute="top" id="o6L-Fx-6Bh"/>
+                            <constraint firstItem="Nu0-bm-j1t" firstAttribute="bottom" secondItem="roo-ba-65G" secondAttribute="bottom" constant="20" id="xyx-2D-ucW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Nu0-bm-j1t"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3DB-m2-Tjn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="756" y="373.76311844077964"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Church Landing Page" width="375" height="667"/>
+    </resources>
+</document>

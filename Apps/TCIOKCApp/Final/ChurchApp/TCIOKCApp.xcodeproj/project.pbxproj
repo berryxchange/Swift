@@ -1,0 +1,1095 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC176FEE21DA7357005720D4 /* GroupDiscussionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC176FED21DA7354005720D4 /* GroupDiscussionViewController.swift */; };
+		AC176FF021DA754A005720D4 /* GroupDiscussionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC176FEF21DA7548005720D4 /* GroupDiscussionTableViewCell.swift */; };
+		AC1844A62196518B005F77C6 /* ReportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1844A52196518B005F77C6 /* ReportsViewController.swift */; };
+		AC1844A821965325005F77C6 /* ReportsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1844A721965325005F77C6 /* ReportsDetailViewController.swift */; };
+		AC1844AA21965E45005F77C6 /* Complaint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1844A921965E45005F77C6 /* Complaint.swift */; };
+		AC1844AC219664C9005F77C6 /* ComplaintTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1844AB219664C9005F77C6 /* ComplaintTableViewCell.swift */; };
+		AC214141205CDE4100633937 /* KJVA.json in Resources */ = {isa = PBXBuildFile; fileRef = AC214140205CDE3F00633937 /* KJVA.json */; };
+		AC214143205CEC7F00633937 /* ASV.json in Resources */ = {isa = PBXBuildFile; fileRef = AC214142205CEC7D00633937 /* ASV.json */; };
+		AC214145205CEC8E00633937 /* ChiUns.json in Resources */ = {isa = PBXBuildFile; fileRef = AC214144205CEC8C00633937 /* ChiUns.json */; };
+		AC2E93C9205CF1A500D3A293 /* KJV.json in Resources */ = {isa = PBXBuildFile; fileRef = AC2E93C8205CF1A500D3A293 /* KJV.json */; };
+		AC38930E1FE09F0C0012EC4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC38930C1FE09F0C0012EC4C /* Main.storyboard */; };
+		AC3893101FE09F0C0012EC4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC38930F1FE09F0C0012EC4C /* Assets.xcassets */; };
+		AC56976E20318FF800DF7E9B /* SlideDownTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC56976D20318FF800DF7E9B /* SlideDownTransitionAnimator.swift */; };
+		AC5DF69621A864C10002ECD6 /* AudioListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5DF69521A864C10002ECD6 /* AudioListTableViewCell.swift */; };
+		AC5DF69821A86A2C0002ECD6 /* ChurchAudioFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5DF69721A86A2C0002ECD6 /* ChurchAudioFiles.swift */; };
+		AC68213D21BA0802001B521A /* addUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC68213C21BA0802001B521A /* addUserViewController.swift */; };
+		AC7A41BA21C9A63E001E3661 /* ComplaintNotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7A41B921C9A63E001E3661 /* ComplaintNotesViewController.swift */; };
+		AC7A41BE21CA03CE001E3661 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC7A41BD21CA03CD001E3661 /* GoogleService-Info.plist */; };
+		AC7B5F3421C46DE0003078CC /* PaymentCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7B5F3321C46DE0003078CC /* PaymentCollectionViewController.swift */; };
+		AC7B5F3621C4706E003078CC /* paymentsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7B5F3521C4706E003078CC /* paymentsCollectionViewCell.swift */; };
+		AC7E49F521C3A21200C4F718 /* ChooseUsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7E49F421C3A21200C4F718 /* ChooseUsersViewController.swift */; };
+		AC812542214CC72D002B7DB6 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC812541214CC72A002B7DB6 /* CategoriesViewController.swift */; };
+		AC81254C214CC7E4002B7DB6 /* GroupMemberListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC812543214CC741002B7DB6 /* GroupMemberListTableViewController.swift */; };
+		AC81254D214CC7E4002B7DB6 /* GroupPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC812544214CC76C002B7DB6 /* GroupPageViewController.swift */; };
+		AC81254E214CC7E4002B7DB6 /* NewGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC812545214CC786002B7DB6 /* NewGroupViewController.swift */; };
+		AC81254F214CC7E4002B7DB6 /* GroupMembersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC812546214CC792002B7DB6 /* GroupMembersViewController.swift */; };
+		AC812550214CC7E4002B7DB6 /* YourMemberGroupsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC812547214CC7A5002B7DB6 /* YourMemberGroupsTableViewController.swift */; };
+		AC812551214CC7E4002B7DB6 /* FindMeetupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC812548214CC7B1002B7DB6 /* FindMeetupsViewController.swift */; };
+		AC812552214CC7E4002B7DB6 /* NewGroupMeetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC812549214CC7BF002B7DB6 /* NewGroupMeetupViewController.swift */; };
+		AC812553214CC7E4002B7DB6 /* GroupIntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC81254A214CC7CF002B7DB6 /* GroupIntroViewController.swift */; };
+		AC812554214CC7E4002B7DB6 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC81254B214CC7E1002B7DB6 /* TableViewController.swift */; };
+		AC812556214CC81C002B7DB6 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC812555214CC81A002B7DB6 /* Group.swift */; };
+		AC812562214CC8CF002B7DB6 /* GroupMembersListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC812557214CC872002B7DB6 /* GroupMembersListTableViewCell.swift */; };
+		AC812563214CC8CF002B7DB6 /* CalendarMeetupsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC812558214CC87A002B7DB6 /* CalendarMeetupsTableViewCell.swift */; };
+		AC812564214CC8CF002B7DB6 /* YourMemberGroupsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC812559214CC87F002B7DB6 /* YourMemberGroupsTableViewCell.swift */; };
+		AC812565214CC8CF002B7DB6 /* MeetupGroupMemberCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC81255A214CC886002B7DB6 /* MeetupGroupMemberCollectionViewCell.swift */; };
+		AC812566214CC8CF002B7DB6 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC81255B214CC88A002B7DB6 /* CollectionViewCell.swift */; };
+		AC812567214CC8CF002B7DB6 /* AllGroupsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC81255C214CC895002B7DB6 /* AllGroupsTableViewCell.swift */; };
+		AC812568214CC8CF002B7DB6 /* GroupIntroTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC81255D214CC8A2002B7DB6 /* GroupIntroTableViewCell.swift */; };
+		AC812569214CC8CF002B7DB6 /* GroupMembersCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC81255E214CC8AF002B7DB6 /* GroupMembersCollectionViewCell.swift */; };
+		AC81256A214CC8CF002B7DB6 /* AllGroupsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC81255F214CC8B6002B7DB6 /* AllGroupsCollectionViewCell.swift */; };
+		AC81256B214CC8CF002B7DB6 /* MeetupCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC812560214CC8BD002B7DB6 /* MeetupCollectionViewCell.swift */; };
+		AC81256C214CC8CF002B7DB6 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC812561214CC8C8002B7DB6 /* TableViewCell.swift */; };
+		AC81256E214CCAB5002B7DB6 /* ServerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC81256D214CCAB5002B7DB6 /* ServerData.swift */; };
+		AC879C50217EF99400B8ADA0 /* participationPostsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC879C4F217EF99400B8ADA0 /* participationPostsCollectionViewCell.swift */; };
+		AC92A7A1214CDDBC00630AA1 /* MinistryServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7A0214CDDBA00630AA1 /* MinistryServer.swift */; };
+		AC92A7BA214CDE0E00630AA1 /* ClassesViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7A3214CDE0100630AA1 /* ClassesViewControllerTableViewController.swift */; };
+		AC92A7BB214CDE0E00630AA1 /* AddClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7A4214CDE0100630AA1 /* AddClassViewController.swift */; };
+		AC92A7BC214CDE0E00630AA1 /* AddEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7A5214CDE0200630AA1 /* AddEventViewController.swift */; };
+		AC92A7BD214CDE0E00630AA1 /* ChatLogControllerOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7A6214CDE0200630AA1 /* ChatLogControllerOne.swift */; };
+		AC92A7BE214CDE0E00630AA1 /* ChurchMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7A7214CDE0300630AA1 /* ChurchMainViewController.swift */; };
+		AC92A7BF214CDE0E00630AA1 /* AddPastorialBlogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7A8214CDE0300630AA1 /* AddPastorialBlogViewController.swift */; };
+		AC92A7C0214CDE0E00630AA1 /* ChurchSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7A9214CDE0400630AA1 /* ChurchSignupViewController.swift */; };
+		AC92A7C1214CDE0E00630AA1 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7AA214CDE0400630AA1 /* EventsViewController.swift */; };
+		AC92A7C2214CDE0E00630AA1 /* ChurchSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7AB214CDE0500630AA1 /* ChurchSignInViewController.swift */; };
+		AC92A7C3214CDE0E00630AA1 /* AddSocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7AC214CDE0600630AA1 /* AddSocialViewController.swift */; };
+		AC92A7C4214CDE0E00630AA1 /* EventsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7AD214CDE0600630AA1 /* EventsDetailViewController.swift */; };
+		AC92A7C5214CDE0E00630AA1 /* ChurchEditInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7AE214CDE0700630AA1 /* ChurchEditInfoViewController.swift */; };
+		AC92A7C6214CDE0E00630AA1 /* AddPrayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7AF214CDE0700630AA1 /* AddPrayerViewController.swift */; };
+		AC92A7C7214CDE0E00630AA1 /* ChatLogControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7B0214CDE0800630AA1 /* ChatLogControllerTableViewController.swift */; };
+		AC92A7C8214CDE0E00630AA1 /* AdministratorControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7B1214CDE0900630AA1 /* AdministratorControlViewController.swift */; };
+		AC92A7C9214CDE0E00630AA1 /* ChurchInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7B2214CDE0900630AA1 /* ChurchInfoViewController.swift */; };
+		AC92A7CA214CDE0E00630AA1 /* AddStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7B3214CDE0A00630AA1 /* AddStudentViewController.swift */; };
+		AC92A7CB214CDE0E00630AA1 /* BibleChaptersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7B4214CDE0A00630AA1 /* BibleChaptersTableViewController.swift */; };
+		AC92A7CC214CDE0E00630AA1 /* EventsImageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7B5214CDE0B00630AA1 /* EventsImageDetailViewController.swift */; };
+		AC92A7CD214CDE0E00630AA1 /* EventMapViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7B6214CDE0C00630AA1 /* EventMapViewViewController.swift */; };
+		AC92A7CE214CDE0E00630AA1 /* BibleVerseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7B7214CDE0C00630AA1 /* BibleVerseTableViewController.swift */; };
+		AC92A7CF214CDE0E00630AA1 /* BibleVersionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7B8214CDE0D00630AA1 /* BibleVersionsTableViewController.swift */; };
+		AC92A7D0214CDE0E00630AA1 /* BibleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7B9214CDE0E00630AA1 /* BibleViewController.swift */; };
+		AC92A7E5214CDE3700630AA1 /* PastorialBlogDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7D1214CDE2400630AA1 /* PastorialBlogDetailViewController.swift */; };
+		AC92A7E6214CDE3700630AA1 /* SocialDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7D2214CDE2400630AA1 /* SocialDetailViewController.swift */; };
+		AC92A7E7214CDE3700630AA1 /* PastorialBlogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7D3214CDE2500630AA1 /* PastorialBlogViewController.swift */; };
+		AC92A7E8214CDE3700630AA1 /* socialMediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7D4214CDE2600630AA1 /* socialMediaViewController.swift */; };
+		AC92A7E9214CDE3700630AA1 /* WalkthroughContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7D5214CDE2700630AA1 /* WalkthroughContentViewController.swift */; };
+		AC92A7EA214CDE3700630AA1 /* TermsAndPoliciesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7D6214CDE2800630AA1 /* TermsAndPoliciesViewController.swift */; };
+		AC92A7EB214CDE3700630AA1 /* PrayerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7D7214CDE2800630AA1 /* PrayerDetailViewController.swift */; };
+		AC92A7EC214CDE3700630AA1 /* PrayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7D8214CDE2900630AA1 /* PrayerViewController.swift */; };
+		AC92A7ED214CDE3700630AA1 /* MessagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7D9214CDE2A00630AA1 /* MessagesController.swift */; };
+		AC92A7EE214CDE3700630AA1 /* MassMessagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7DA214CDE2B00630AA1 /* MassMessagingViewController.swift */; };
+		AC92A7EF214CDE3700630AA1 /* someClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7DB214CDE2B00630AA1 /* someClassViewController.swift */; };
+		AC92A7F0214CDE3700630AA1 /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7DC214CDE2C00630AA1 /* menuViewController.swift */; };
+		AC92A7F1214CDE3700630AA1 /* MediaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7DD214CDE2E00630AA1 /* MediaTableViewController.swift */; };
+		AC92A7F2214CDE3700630AA1 /* newMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7DE214CDE3000630AA1 /* newMessageController.swift */; };
+		AC92A7F3214CDE3700630AA1 /* StudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7DF214CDE3100630AA1 /* StudentViewController.swift */; };
+		AC92A7F4214CDE3700630AA1 /* MediaDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7E0214CDE3200630AA1 /* MediaDetailViewController.swift */; };
+		AC92A7F5214CDE3700630AA1 /* socialDetailImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7E1214CDE3300630AA1 /* socialDetailImageViewController.swift */; };
+		AC92A7F6214CDE3700630AA1 /* WeeklyBullitenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7E2214CDE3500630AA1 /* WeeklyBullitenTableViewController.swift */; };
+		AC92A7F7214CDE3800630AA1 /* userProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7E3214CDE3600630AA1 /* userProfileViewController.swift */; };
+		AC92A7F8214CDE3800630AA1 /* walkthroughPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7E4214CDE3700630AA1 /* walkthroughPageViewController.swift */; };
+		AC92A80F214CDE6C00630AA1 /* chatLogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7F9214CDE5C00630AA1 /* chatLogCell.swift */; };
+		AC92A810214CDE6C00630AA1 /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7FA214CDE5D00630AA1 /* MainCollectionViewCell.swift */; };
+		AC92A811214CDE6C00630AA1 /* MessagesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7FB214CDE5D00630AA1 /* MessagesCell.swift */; };
+		AC92A812214CDE6C00630AA1 /* weeklyBullitenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7FC214CDE5D00630AA1 /* weeklyBullitenTableViewCell.swift */; };
+		AC92A813214CDE6C00630AA1 /* PastorialBlogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7FD214CDE5E00630AA1 /* PastorialBlogTableViewCell.swift */; };
+		AC92A814214CDE6C00630AA1 /* profileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7FE214CDE5F00630AA1 /* profileCollectionViewCell.swift */; };
+		AC92A815214CDE6C00630AA1 /* MediaDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A7FF214CDE5F00630AA1 /* MediaDetailTableViewCell.swift */; };
+		AC92A816214CDE6C00630AA1 /* ClassesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A800214CDE6000630AA1 /* ClassesCell.swift */; };
+		AC92A817214CDE6C00630AA1 /* SocialTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A801214CDE6100630AA1 /* SocialTableViewCell.swift */; };
+		AC92A818214CDE6C00630AA1 /* VerseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A802214CDE6200630AA1 /* VerseTableViewCell.swift */; };
+		AC92A819214CDE6C00630AA1 /* adminUserDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A803214CDE6200630AA1 /* adminUserDetailTableViewCell.swift */; };
+		AC92A81A214CDE6C00630AA1 /* BibleVersionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A804214CDE6300630AA1 /* BibleVersionsTableViewCell.swift */; };
+		AC92A81B214CDE6C00630AA1 /* profileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A805214CDE6400630AA1 /* profileTableViewCell.swift */; };
+		AC92A81C214CDE6C00630AA1 /* PastorialBlogDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A806214CDE6500630AA1 /* PastorialBlogDetailTableViewCell.swift */; };
+		AC92A81D214CDE6C00630AA1 /* PrayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A807214CDE6600630AA1 /* PrayerTableViewCell.swift */; };
+		AC92A81E214CDE6C00630AA1 /* NewMessageControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A808214CDE6600630AA1 /* NewMessageControllerTableViewCell.swift */; };
+		AC92A81F214CDE6C00630AA1 /* EventsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A809214CDE6700630AA1 /* EventsCollectionViewCell.swift */; };
+		AC92A820214CDE6C00630AA1 /* BibleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A80A214CDE6800630AA1 /* BibleTableViewCell.swift */; };
+		AC92A821214CDE6C00630AA1 /* MediaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A80B214CDE6800630AA1 /* MediaTableViewCell.swift */; };
+		AC92A822214CDE6C00630AA1 /* AdministratorControlTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A80C214CDE6900630AA1 /* AdministratorControlTableViewCell.swift */; };
+		AC92A823214CDE6C00630AA1 /* someClassCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A80D214CDE6A00630AA1 /* someClassCell.swift */; };
+		AC92A824214CDE6C00630AA1 /* StudentAttendanceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A80E214CDE6B00630AA1 /* StudentAttendanceCell.swift */; };
+		AC92A839214CDE8D00630AA1 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A825214CDE8500630AA1 /* Video.swift */; };
+		AC92A83A214CDE8D00630AA1 /* Ministry.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A826214CDE8500630AA1 /* Ministry.swift */; };
+		AC92A83B214CDE8D00630AA1 /* Bulliten.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A827214CDE8500630AA1 /* Bulliten.swift */; };
+		AC92A83C214CDE8D00630AA1 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A828214CDE8600630AA1 /* Media.swift */; };
+		AC92A83D214CDE8D00630AA1 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A829214CDE8600630AA1 /* Event.swift */; };
+		AC92A83E214CDE8D00630AA1 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A82A214CDE8700630AA1 /* Student.swift */; };
+		AC92A83F214CDE8D00630AA1 /* Administrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A82B214CDE8700630AA1 /* Administrator.swift */; };
+		AC92A840214CDE8D00630AA1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A82C214CDE8800630AA1 /* User.swift */; };
+		AC92A841214CDE8D00630AA1 /* Prayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A82D214CDE8800630AA1 /* Prayer.swift */; };
+		AC92A842214CDE8D00630AA1 /* ChurchUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A82E214CDE8900630AA1 /* ChurchUser.swift */; };
+		AC92A843214CDE8D00630AA1 /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A82F214CDE8900630AA1 /* Class.swift */; };
+		AC92A844214CDE8D00630AA1 /* Church.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A830214CDE8A00630AA1 /* Church.swift */; };
+		AC92A845214CDE8D00630AA1 /* Attendance.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A831214CDE8A00630AA1 /* Attendance.swift */; };
+		AC92A846214CDE8D00630AA1 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A832214CDE8B00630AA1 /* Message.swift */; };
+		AC92A847214CDE8D00630AA1 /* Blog.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A833214CDE8B00630AA1 /* Blog.swift */; };
+		AC92A848214CDE8D00630AA1 /* BibleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A834214CDE8C00630AA1 /* BibleModel.swift */; };
+		AC92A849214CDE8D00630AA1 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A835214CDE8C00630AA1 /* Main.swift */; };
+		AC92A84A214CDE8D00630AA1 /* Social.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A836214CDE8C00630AA1 /* Social.swift */; };
+		AC92A84B214CDE8D00630AA1 /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A837214CDE8D00630AA1 /* Books.swift */; };
+		AC92A84C214CDE8D00630AA1 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A838214CDE8D00630AA1 /* VideoModel.swift */; };
+		AC92A84E214CE0BA00630AA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92A84D214CE0B800630AA1 /* AppDelegate.swift */; };
+		AC947204217019DA00F7B6D1 /* Siren.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC947203217019DA00F7B6D1 /* Siren.framework */; };
+		AC96CB99213846A300D3D087 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC96CB98213846A300D3D087 /* Launch Screen.storyboard */; };
+		AC96CB9B21384B2500D3D087 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC96CB9A21384B2500D3D087 /* Images.xcassets */; };
+		AC9F56532177D3F70032374A /* PastorsBlogListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9F56522177D3F70032374A /* PastorsBlogListViewController.swift */; };
+		AC9F56552177D5F10032374A /* PastorsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9F56542177D5F10032374A /* PastorsListTableViewCell.swift */; };
+		AC9F56572177D9C20032374A /* AddPastorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9F56562177D9C20032374A /* AddPastorTableViewController.swift */; };
+		ACA1F85B206745A7008F8392 /* ESV.json in Resources */ = {isa = PBXBuildFile; fileRef = ACA1F85A206745A6008F8392 /* ESV.json */; };
+		ACA1F85D206747C7008F8392 /* NETfree.json in Resources */ = {isa = PBXBuildFile; fileRef = ACA1F85C206747C6008F8392 /* NETfree.json */; };
+		ACAB06702032CA8B00CE466F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACAB06712032CA8B00CE466F /* Alamofire.framework */; };
+		ACDAD8F82013562000AB022C /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDAD8F52013562000AB022C /* iCarousel.m */; };
+		ACDAD8F92013562000AB022C /* LICENCE.md in Resources */ = {isa = PBXBuildFile; fileRef = ACDAD8F62013562000AB022C /* LICENCE.md */; };
+		ACDAD8FA2013562000AB022C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ACDAD8F72013562000AB022C /* README.md */; };
+		ACFE50E12194020100B888DE /* AudioTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFE50E02194020100B888DE /* AudioTableViewController.swift */; };
+		DC02A642D3306BC61C2575F1 /* Pods_TCIOKCApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 856252A265CA7F67F8296A6F /* Pods_TCIOKCApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01C2C014750B050AADB78A0C /* Pods-OKCityChurch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OKCityChurch.release.xcconfig"; path = "Pods/Target Support Files/Pods-OKCityChurch/Pods-OKCityChurch.release.xcconfig"; sourceTree = "<group>"; };
+		1244B560D121F72A0DC0763F /* Pods_OKCityChurch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OKCityChurch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AE43D54F369624C56DC665E /* Pods-TCIApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCIApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TCIApp/Pods-TCIApp.release.xcconfig"; sourceTree = "<group>"; };
+		432B77F8BBD24D47D4891149 /* Pods-ChurchAppOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChurchAppOne.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChurchAppOne/Pods-ChurchAppOne.debug.xcconfig"; sourceTree = "<group>"; };
+		5AE8066BB618B2256615AF0B /* Pods_TCIApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCIApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		856252A265CA7F67F8296A6F /* Pods_TCIOKCApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCIOKCApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B02356CB01FB5424DCFB553 /* Pods_ChurchAppOne_Full_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChurchAppOne_Full_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99B418D394729C090F6F126C /* Pods-ChurchAppOne(Full).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChurchAppOne(Full).debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChurchAppOne(Full)/Pods-ChurchAppOne(Full).debug.xcconfig"; sourceTree = "<group>"; };
+		A2B7B40C436E577C331FB36E /* Pods-ChurchAppOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChurchAppOne.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChurchAppOne/Pods-ChurchAppOne.release.xcconfig"; sourceTree = "<group>"; };
+		AC176FED21DA7354005720D4 /* GroupDiscussionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDiscussionViewController.swift; sourceTree = "<group>"; };
+		AC176FEF21DA7548005720D4 /* GroupDiscussionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDiscussionTableViewCell.swift; sourceTree = "<group>"; };
+		AC1844A52196518B005F77C6 /* ReportsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsViewController.swift; sourceTree = "<group>"; };
+		AC1844A721965325005F77C6 /* ReportsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsDetailViewController.swift; sourceTree = "<group>"; };
+		AC1844A921965E45005F77C6 /* Complaint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Complaint.swift; sourceTree = "<group>"; };
+		AC1844AB219664C9005F77C6 /* ComplaintTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplaintTableViewCell.swift; sourceTree = "<group>"; };
+		AC214140205CDE3F00633937 /* KJVA.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = KJVA.json; sourceTree = "<group>"; };
+		AC214142205CEC7D00633937 /* ASV.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ASV.json; sourceTree = "<group>"; };
+		AC214144205CEC8C00633937 /* ChiUns.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ChiUns.json; sourceTree = "<group>"; };
+		AC2E93C8205CF1A500D3A293 /* KJV.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = KJV.json; sourceTree = "<group>"; };
+		AC3893051FE09F0C0012EC4C /* TCIOKCApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCIOKCApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC38930D1FE09F0C0012EC4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC38930F1FE09F0C0012EC4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC3893141FE09F0C0012EC4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC56976D20318FF800DF7E9B /* SlideDownTransitionAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideDownTransitionAnimator.swift; sourceTree = "<group>"; };
+		AC5DF69521A864C10002ECD6 /* AudioListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioListTableViewCell.swift; sourceTree = "<group>"; };
+		AC5DF69721A86A2C0002ECD6 /* ChurchAudioFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChurchAudioFiles.swift; sourceTree = "<group>"; };
+		AC68213C21BA0802001B521A /* addUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addUserViewController.swift; sourceTree = "<group>"; };
+		AC7A41B921C9A63E001E3661 /* ComplaintNotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplaintNotesViewController.swift; sourceTree = "<group>"; };
+		AC7A41BD21CA03CD001E3661 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AC7B5F3321C46DE0003078CC /* PaymentCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentCollectionViewController.swift; sourceTree = "<group>"; };
+		AC7B5F3521C4706E003078CC /* paymentsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paymentsCollectionViewCell.swift; sourceTree = "<group>"; };
+		AC7E49F421C3A21200C4F718 /* ChooseUsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseUsersViewController.swift; sourceTree = "<group>"; };
+		AC812541214CC72A002B7DB6 /* CategoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		AC812543214CC741002B7DB6 /* GroupMemberListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupMemberListTableViewController.swift; sourceTree = "<group>"; };
+		AC812544214CC76C002B7DB6 /* GroupPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupPageViewController.swift; sourceTree = "<group>"; };
+		AC812545214CC786002B7DB6 /* NewGroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewGroupViewController.swift; sourceTree = "<group>"; };
+		AC812546214CC792002B7DB6 /* GroupMembersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupMembersViewController.swift; sourceTree = "<group>"; };
+		AC812547214CC7A5002B7DB6 /* YourMemberGroupsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YourMemberGroupsTableViewController.swift; sourceTree = "<group>"; };
+		AC812548214CC7B1002B7DB6 /* FindMeetupsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindMeetupsViewController.swift; sourceTree = "<group>"; };
+		AC812549214CC7BF002B7DB6 /* NewGroupMeetupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewGroupMeetupViewController.swift; sourceTree = "<group>"; };
+		AC81254A214CC7CF002B7DB6 /* GroupIntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupIntroViewController.swift; sourceTree = "<group>"; };
+		AC81254B214CC7E1002B7DB6 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		AC812555214CC81A002B7DB6 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		AC812557214CC872002B7DB6 /* GroupMembersListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupMembersListTableViewCell.swift; sourceTree = "<group>"; };
+		AC812558214CC87A002B7DB6 /* CalendarMeetupsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarMeetupsTableViewCell.swift; sourceTree = "<group>"; };
+		AC812559214CC87F002B7DB6 /* YourMemberGroupsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourMemberGroupsTableViewCell.swift; sourceTree = "<group>"; };
+		AC81255A214CC886002B7DB6 /* MeetupGroupMemberCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetupGroupMemberCollectionViewCell.swift; sourceTree = "<group>"; };
+		AC81255B214CC88A002B7DB6 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		AC81255C214CC895002B7DB6 /* AllGroupsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllGroupsTableViewCell.swift; sourceTree = "<group>"; };
+		AC81255D214CC8A2002B7DB6 /* GroupIntroTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupIntroTableViewCell.swift; sourceTree = "<group>"; };
+		AC81255E214CC8AF002B7DB6 /* GroupMembersCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupMembersCollectionViewCell.swift; sourceTree = "<group>"; };
+		AC81255F214CC8B6002B7DB6 /* AllGroupsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllGroupsCollectionViewCell.swift; sourceTree = "<group>"; };
+		AC812560214CC8BD002B7DB6 /* MeetupCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetupCollectionViewCell.swift; sourceTree = "<group>"; };
+		AC812561214CC8C8002B7DB6 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		AC81256D214CCAB5002B7DB6 /* ServerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerData.swift; sourceTree = "<group>"; };
+		AC879C4F217EF99400B8ADA0 /* participationPostsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = participationPostsCollectionViewCell.swift; sourceTree = "<group>"; };
+		AC92A7A0214CDDBA00630AA1 /* MinistryServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinistryServer.swift; sourceTree = "<group>"; };
+		AC92A7A2214CDDD400630AA1 /* TCIOKC.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = TCIOKC.entitlements; sourceTree = "<group>"; };
+		AC92A7A3214CDE0100630AA1 /* ClassesViewControllerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassesViewControllerTableViewController.swift; sourceTree = "<group>"; };
+		AC92A7A4214CDE0100630AA1 /* AddClassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddClassViewController.swift; sourceTree = "<group>"; };
+		AC92A7A5214CDE0200630AA1 /* AddEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEventViewController.swift; sourceTree = "<group>"; };
+		AC92A7A6214CDE0200630AA1 /* ChatLogControllerOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatLogControllerOne.swift; sourceTree = "<group>"; };
+		AC92A7A7214CDE0300630AA1 /* ChurchMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChurchMainViewController.swift; sourceTree = "<group>"; };
+		AC92A7A8214CDE0300630AA1 /* AddPastorialBlogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPastorialBlogViewController.swift; sourceTree = "<group>"; };
+		AC92A7A9214CDE0400630AA1 /* ChurchSignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChurchSignupViewController.swift; sourceTree = "<group>"; };
+		AC92A7AA214CDE0400630AA1 /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		AC92A7AB214CDE0500630AA1 /* ChurchSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChurchSignInViewController.swift; sourceTree = "<group>"; };
+		AC92A7AC214CDE0600630AA1 /* AddSocialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSocialViewController.swift; sourceTree = "<group>"; };
+		AC92A7AD214CDE0600630AA1 /* EventsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsDetailViewController.swift; sourceTree = "<group>"; };
+		AC92A7AE214CDE0700630AA1 /* ChurchEditInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChurchEditInfoViewController.swift; sourceTree = "<group>"; };
+		AC92A7AF214CDE0700630AA1 /* AddPrayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPrayerViewController.swift; sourceTree = "<group>"; };
+		AC92A7B0214CDE0800630AA1 /* ChatLogControllerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatLogControllerTableViewController.swift; sourceTree = "<group>"; };
+		AC92A7B1214CDE0900630AA1 /* AdministratorControlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdministratorControlViewController.swift; sourceTree = "<group>"; };
+		AC92A7B2214CDE0900630AA1 /* ChurchInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChurchInfoViewController.swift; sourceTree = "<group>"; };
+		AC92A7B3214CDE0A00630AA1 /* AddStudentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddStudentViewController.swift; sourceTree = "<group>"; };
+		AC92A7B4214CDE0A00630AA1 /* BibleChaptersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BibleChaptersTableViewController.swift; sourceTree = "<group>"; };
+		AC92A7B5214CDE0B00630AA1 /* EventsImageDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsImageDetailViewController.swift; sourceTree = "<group>"; };
+		AC92A7B6214CDE0C00630AA1 /* EventMapViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventMapViewViewController.swift; sourceTree = "<group>"; };
+		AC92A7B7214CDE0C00630AA1 /* BibleVerseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BibleVerseTableViewController.swift; sourceTree = "<group>"; };
+		AC92A7B8214CDE0D00630AA1 /* BibleVersionsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BibleVersionsTableViewController.swift; sourceTree = "<group>"; };
+		AC92A7B9214CDE0E00630AA1 /* BibleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BibleViewController.swift; sourceTree = "<group>"; };
+		AC92A7D1214CDE2400630AA1 /* PastorialBlogDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PastorialBlogDetailViewController.swift; sourceTree = "<group>"; };
+		AC92A7D2214CDE2400630AA1 /* SocialDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialDetailViewController.swift; sourceTree = "<group>"; };
+		AC92A7D3214CDE2500630AA1 /* PastorialBlogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PastorialBlogViewController.swift; sourceTree = "<group>"; };
+		AC92A7D4214CDE2600630AA1 /* socialMediaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = socialMediaViewController.swift; sourceTree = "<group>"; };
+		AC92A7D5214CDE2700630AA1 /* WalkthroughContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkthroughContentViewController.swift; sourceTree = "<group>"; };
+		AC92A7D6214CDE2800630AA1 /* TermsAndPoliciesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsAndPoliciesViewController.swift; sourceTree = "<group>"; };
+		AC92A7D7214CDE2800630AA1 /* PrayerDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrayerDetailViewController.swift; sourceTree = "<group>"; };
+		AC92A7D8214CDE2900630AA1 /* PrayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrayerViewController.swift; sourceTree = "<group>"; };
+		AC92A7D9214CDE2A00630AA1 /* MessagesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesController.swift; sourceTree = "<group>"; };
+		AC92A7DA214CDE2B00630AA1 /* MassMessagingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MassMessagingViewController.swift; sourceTree = "<group>"; };
+		AC92A7DB214CDE2B00630AA1 /* someClassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = someClassViewController.swift; sourceTree = "<group>"; };
+		AC92A7DC214CDE2C00630AA1 /* menuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
+		AC92A7DD214CDE2E00630AA1 /* MediaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaTableViewController.swift; sourceTree = "<group>"; };
+		AC92A7DE214CDE3000630AA1 /* newMessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newMessageController.swift; sourceTree = "<group>"; };
+		AC92A7DF214CDE3100630AA1 /* StudentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentViewController.swift; sourceTree = "<group>"; };
+		AC92A7E0214CDE3200630AA1 /* MediaDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaDetailViewController.swift; sourceTree = "<group>"; };
+		AC92A7E1214CDE3300630AA1 /* socialDetailImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = socialDetailImageViewController.swift; sourceTree = "<group>"; };
+		AC92A7E2214CDE3500630AA1 /* WeeklyBullitenTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeeklyBullitenTableViewController.swift; sourceTree = "<group>"; };
+		AC92A7E3214CDE3600630AA1 /* userProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userProfileViewController.swift; sourceTree = "<group>"; };
+		AC92A7E4214CDE3700630AA1 /* walkthroughPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = walkthroughPageViewController.swift; sourceTree = "<group>"; };
+		AC92A7F9214CDE5C00630AA1 /* chatLogCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = chatLogCell.swift; sourceTree = "<group>"; };
+		AC92A7FA214CDE5D00630AA1 /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
+		AC92A7FB214CDE5D00630AA1 /* MessagesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesCell.swift; sourceTree = "<group>"; };
+		AC92A7FC214CDE5D00630AA1 /* weeklyBullitenTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = weeklyBullitenTableViewCell.swift; sourceTree = "<group>"; };
+		AC92A7FD214CDE5E00630AA1 /* PastorialBlogTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PastorialBlogTableViewCell.swift; sourceTree = "<group>"; };
+		AC92A7FE214CDE5F00630AA1 /* profileCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profileCollectionViewCell.swift; sourceTree = "<group>"; };
+		AC92A7FF214CDE5F00630AA1 /* MediaDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaDetailTableViewCell.swift; sourceTree = "<group>"; };
+		AC92A800214CDE6000630AA1 /* ClassesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassesCell.swift; sourceTree = "<group>"; };
+		AC92A801214CDE6100630AA1 /* SocialTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialTableViewCell.swift; sourceTree = "<group>"; };
+		AC92A802214CDE6200630AA1 /* VerseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerseTableViewCell.swift; sourceTree = "<group>"; };
+		AC92A803214CDE6200630AA1 /* adminUserDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = adminUserDetailTableViewCell.swift; sourceTree = "<group>"; };
+		AC92A804214CDE6300630AA1 /* BibleVersionsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BibleVersionsTableViewCell.swift; sourceTree = "<group>"; };
+		AC92A805214CDE6400630AA1 /* profileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profileTableViewCell.swift; sourceTree = "<group>"; };
+		AC92A806214CDE6500630AA1 /* PastorialBlogDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PastorialBlogDetailTableViewCell.swift; sourceTree = "<group>"; };
+		AC92A807214CDE6600630AA1 /* PrayerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrayerTableViewCell.swift; sourceTree = "<group>"; };
+		AC92A808214CDE6600630AA1 /* NewMessageControllerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewMessageControllerTableViewCell.swift; sourceTree = "<group>"; };
+		AC92A809214CDE6700630AA1 /* EventsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsCollectionViewCell.swift; sourceTree = "<group>"; };
+		AC92A80A214CDE6800630AA1 /* BibleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BibleTableViewCell.swift; sourceTree = "<group>"; };
+		AC92A80B214CDE6800630AA1 /* MediaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaTableViewCell.swift; sourceTree = "<group>"; };
+		AC92A80C214CDE6900630AA1 /* AdministratorControlTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdministratorControlTableViewCell.swift; sourceTree = "<group>"; };
+		AC92A80D214CDE6A00630AA1 /* someClassCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = someClassCell.swift; sourceTree = "<group>"; };
+		AC92A80E214CDE6B00630AA1 /* StudentAttendanceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentAttendanceCell.swift; sourceTree = "<group>"; };
+		AC92A825214CDE8500630AA1 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		AC92A826214CDE8500630AA1 /* Ministry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ministry.swift; sourceTree = "<group>"; };
+		AC92A827214CDE8500630AA1 /* Bulliten.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bulliten.swift; sourceTree = "<group>"; };
+		AC92A828214CDE8600630AA1 /* Media.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
+		AC92A829214CDE8600630AA1 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		AC92A82A214CDE8700630AA1 /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		AC92A82B214CDE8700630AA1 /* Administrator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Administrator.swift; sourceTree = "<group>"; };
+		AC92A82C214CDE8800630AA1 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AC92A82D214CDE8800630AA1 /* Prayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prayer.swift; sourceTree = "<group>"; };
+		AC92A82E214CDE8900630AA1 /* ChurchUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChurchUser.swift; sourceTree = "<group>"; };
+		AC92A82F214CDE8900630AA1 /* Class.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Class.swift; sourceTree = "<group>"; };
+		AC92A830214CDE8A00630AA1 /* Church.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Church.swift; sourceTree = "<group>"; };
+		AC92A831214CDE8A00630AA1 /* Attendance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Attendance.swift; sourceTree = "<group>"; };
+		AC92A832214CDE8B00630AA1 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		AC92A833214CDE8B00630AA1 /* Blog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Blog.swift; sourceTree = "<group>"; };
+		AC92A834214CDE8C00630AA1 /* BibleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BibleModel.swift; sourceTree = "<group>"; };
+		AC92A835214CDE8C00630AA1 /* Main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		AC92A836214CDE8C00630AA1 /* Social.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Social.swift; sourceTree = "<group>"; };
+		AC92A837214CDE8D00630AA1 /* Books.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
+		AC92A838214CDE8D00630AA1 /* VideoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		AC92A84D214CE0B800630AA1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC947203217019DA00F7B6D1 /* Siren.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Siren.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC96CB98213846A300D3D087 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		AC96CB9A21384B2500D3D087 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AC9F56522177D3F70032374A /* PastorsBlogListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastorsBlogListViewController.swift; sourceTree = "<group>"; };
+		AC9F56542177D5F10032374A /* PastorsListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastorsListTableViewCell.swift; sourceTree = "<group>"; };
+		AC9F56562177D9C20032374A /* AddPastorTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPastorTableViewController.swift; sourceTree = "<group>"; };
+		ACA1F85A206745A6008F8392 /* ESV.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ESV.json; sourceTree = "<group>"; };
+		ACA1F85C206747C6008F8392 /* NETfree.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NETfree.json; sourceTree = "<group>"; };
+		ACAB06712032CA8B00CE466F /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDAD8F42013562000AB022C /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		ACDAD8F52013562000AB022C /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		ACDAD8F62013562000AB022C /* LICENCE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENCE.md; sourceTree = "<group>"; };
+		ACDAD8F72013562000AB022C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		ACFE50E02194020100B888DE /* AudioTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTableViewController.swift; sourceTree = "<group>"; };
+		D14760B5DBD6B43EB6E459EB /* Pods-ChurchAppOne(Full).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChurchAppOne(Full).release.xcconfig"; path = "Pods/Target Support Files/Pods-ChurchAppOne(Full)/Pods-ChurchAppOne(Full).release.xcconfig"; sourceTree = "<group>"; };
+		D90DAD93CA11953FC4F4A830 /* Pods-TCIApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCIApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TCIApp/Pods-TCIApp.debug.xcconfig"; sourceTree = "<group>"; };
+		E557FEC618B4CB97247EE695 /* Pods_ChurchAppOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChurchAppOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F238F964E8520B9C8C3067B5 /* Pods-OKCityChurch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OKCityChurch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OKCityChurch/Pods-OKCityChurch.debug.xcconfig"; sourceTree = "<group>"; };
+		F51D0DA9E28A1C8488453257 /* Pods-TCIOKCApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCIOKCApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TCIOKCApp/Pods-TCIOKCApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F7F56660E82A1AFBDD903C1C /* Pods-TCIOKCApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCIOKCApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TCIOKCApp/Pods-TCIOKCApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC3893021FE09F0C0012EC4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC947204217019DA00F7B6D1 /* Siren.framework in Frameworks */,
+				ACAB06702032CA8B00CE466F /* Alamofire.framework in Frameworks */,
+				DC02A642D3306BC61C2575F1 /* Pods_TCIOKCApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42766B46B56A103A19B5BBEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				432B77F8BBD24D47D4891149 /* Pods-ChurchAppOne.debug.xcconfig */,
+				A2B7B40C436E577C331FB36E /* Pods-ChurchAppOne.release.xcconfig */,
+				D90DAD93CA11953FC4F4A830 /* Pods-TCIApp.debug.xcconfig */,
+				2AE43D54F369624C56DC665E /* Pods-TCIApp.release.xcconfig */,
+				99B418D394729C090F6F126C /* Pods-ChurchAppOne(Full).debug.xcconfig */,
+				D14760B5DBD6B43EB6E459EB /* Pods-ChurchAppOne(Full).release.xcconfig */,
+				F238F964E8520B9C8C3067B5 /* Pods-OKCityChurch.debug.xcconfig */,
+				01C2C014750B050AADB78A0C /* Pods-OKCityChurch.release.xcconfig */,
+				F51D0DA9E28A1C8488453257 /* Pods-TCIOKCApp.debug.xcconfig */,
+				F7F56660E82A1AFBDD903C1C /* Pods-TCIOKCApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AC2E93CA205CF2BC00D3A293 /* JsonBibleFiles */ = {
+			isa = PBXGroup;
+			children = (
+				AC214142205CEC7D00633937 /* ASV.json */,
+				ACA1F85A206745A6008F8392 /* ESV.json */,
+				ACA1F85C206747C6008F8392 /* NETfree.json */,
+				AC214144205CEC8C00633937 /* ChiUns.json */,
+				AC2E93C8205CF1A500D3A293 /* KJV.json */,
+				AC214140205CDE3F00633937 /* KJVA.json */,
+			);
+			path = JsonBibleFiles;
+			sourceTree = "<group>";
+		};
+		AC3892FC1FE09F0C0012EC4C = {
+			isa = PBXGroup;
+			children = (
+				ACDAD8F22013562000AB022C /* iCarousel */,
+				AC3893071FE09F0C0012EC4C /* TCIOKC */,
+				AC3893061FE09F0C0012EC4C /* Products */,
+				42766B46B56A103A19B5BBEE /* Pods */,
+				FAB6A9A846E31A5448C67D2F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AC3893061FE09F0C0012EC4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC3893051FE09F0C0012EC4C /* TCIOKCApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC3893071FE09F0C0012EC4C /* TCIOKC */ = {
+			isa = PBXGroup;
+			children = (
+				AC92A84D214CE0B800630AA1 /* AppDelegate.swift */,
+				AC7A41BD21CA03CD001E3661 /* GoogleService-Info.plist */,
+				AC92A7A2214CDDD400630AA1 /* TCIOKC.entitlements */,
+				AC2E93CA205CF2BC00D3A293 /* JsonBibleFiles */,
+				ACC77E6B1FF39B48008B7C9B /* DataServer */,
+				AC38931C1FE0A97A0012EC4C /* Controller */,
+				AC38931B1FE0A9750012EC4C /* View */,
+				AC38931A1FE0A96B0012EC4C /* Model */,
+				AC38930C1FE09F0C0012EC4C /* Main.storyboard */,
+				AC38930F1FE09F0C0012EC4C /* Assets.xcassets */,
+				AC3893141FE09F0C0012EC4C /* Info.plist */,
+				AC56976D20318FF800DF7E9B /* SlideDownTransitionAnimator.swift */,
+				AC96CB98213846A300D3D087 /* Launch Screen.storyboard */,
+				AC96CB9A21384B2500D3D087 /* Images.xcassets */,
+			);
+			path = TCIOKC;
+			sourceTree = "<group>";
+		};
+		AC38931A1FE0A96B0012EC4C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC92A82B214CDE8700630AA1 /* Administrator.swift */,
+				AC92A831214CDE8A00630AA1 /* Attendance.swift */,
+				AC92A834214CDE8C00630AA1 /* BibleModel.swift */,
+				AC92A833214CDE8B00630AA1 /* Blog.swift */,
+				AC92A837214CDE8D00630AA1 /* Books.swift */,
+				AC92A827214CDE8500630AA1 /* Bulliten.swift */,
+				AC92A830214CDE8A00630AA1 /* Church.swift */,
+				AC92A82E214CDE8900630AA1 /* ChurchUser.swift */,
+				AC92A82F214CDE8900630AA1 /* Class.swift */,
+				AC92A829214CDE8600630AA1 /* Event.swift */,
+				AC92A835214CDE8C00630AA1 /* Main.swift */,
+				AC92A828214CDE8600630AA1 /* Media.swift */,
+				AC92A832214CDE8B00630AA1 /* Message.swift */,
+				AC92A826214CDE8500630AA1 /* Ministry.swift */,
+				AC92A82D214CDE8800630AA1 /* Prayer.swift */,
+				AC92A836214CDE8C00630AA1 /* Social.swift */,
+				AC92A82A214CDE8700630AA1 /* Student.swift */,
+				AC92A82C214CDE8800630AA1 /* User.swift */,
+				AC92A825214CDE8500630AA1 /* Video.swift */,
+				AC92A838214CDE8D00630AA1 /* VideoModel.swift */,
+				AC812555214CC81A002B7DB6 /* Group.swift */,
+				AC1844A921965E45005F77C6 /* Complaint.swift */,
+				AC5DF69721A86A2C0002ECD6 /* ChurchAudioFiles.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC38931B1FE0A9750012EC4C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC176FEF21DA7548005720D4 /* GroupDiscussionTableViewCell.swift */,
+				AC92A80C214CDE6900630AA1 /* AdministratorControlTableViewCell.swift */,
+				AC92A803214CDE6200630AA1 /* adminUserDetailTableViewCell.swift */,
+				AC92A80A214CDE6800630AA1 /* BibleTableViewCell.swift */,
+				AC92A804214CDE6300630AA1 /* BibleVersionsTableViewCell.swift */,
+				AC92A7F9214CDE5C00630AA1 /* chatLogCell.swift */,
+				AC92A800214CDE6000630AA1 /* ClassesCell.swift */,
+				AC92A809214CDE6700630AA1 /* EventsCollectionViewCell.swift */,
+				AC92A7FA214CDE5D00630AA1 /* MainCollectionViewCell.swift */,
+				AC92A7FF214CDE5F00630AA1 /* MediaDetailTableViewCell.swift */,
+				AC92A80B214CDE6800630AA1 /* MediaTableViewCell.swift */,
+				AC92A7FB214CDE5D00630AA1 /* MessagesCell.swift */,
+				AC92A808214CDE6600630AA1 /* NewMessageControllerTableViewCell.swift */,
+				AC92A806214CDE6500630AA1 /* PastorialBlogDetailTableViewCell.swift */,
+				AC92A7FD214CDE5E00630AA1 /* PastorialBlogTableViewCell.swift */,
+				AC9F56542177D5F10032374A /* PastorsListTableViewCell.swift */,
+				AC92A807214CDE6600630AA1 /* PrayerTableViewCell.swift */,
+				AC92A7FE214CDE5F00630AA1 /* profileCollectionViewCell.swift */,
+				AC92A805214CDE6400630AA1 /* profileTableViewCell.swift */,
+				AC92A801214CDE6100630AA1 /* SocialTableViewCell.swift */,
+				AC92A80D214CDE6A00630AA1 /* someClassCell.swift */,
+				AC92A80E214CDE6B00630AA1 /* StudentAttendanceCell.swift */,
+				AC92A802214CDE6200630AA1 /* VerseTableViewCell.swift */,
+				AC92A7FC214CDE5D00630AA1 /* weeklyBullitenTableViewCell.swift */,
+				AC81255F214CC8B6002B7DB6 /* AllGroupsCollectionViewCell.swift */,
+				AC81255C214CC895002B7DB6 /* AllGroupsTableViewCell.swift */,
+				AC812558214CC87A002B7DB6 /* CalendarMeetupsTableViewCell.swift */,
+				AC81255B214CC88A002B7DB6 /* CollectionViewCell.swift */,
+				AC81255D214CC8A2002B7DB6 /* GroupIntroTableViewCell.swift */,
+				AC81255E214CC8AF002B7DB6 /* GroupMembersCollectionViewCell.swift */,
+				AC812557214CC872002B7DB6 /* GroupMembersListTableViewCell.swift */,
+				AC812560214CC8BD002B7DB6 /* MeetupCollectionViewCell.swift */,
+				AC81255A214CC886002B7DB6 /* MeetupGroupMemberCollectionViewCell.swift */,
+				AC812561214CC8C8002B7DB6 /* TableViewCell.swift */,
+				AC812559214CC87F002B7DB6 /* YourMemberGroupsTableViewCell.swift */,
+				AC879C4F217EF99400B8ADA0 /* participationPostsCollectionViewCell.swift */,
+				AC1844AB219664C9005F77C6 /* ComplaintTableViewCell.swift */,
+				AC5DF69521A864C10002ECD6 /* AudioListTableViewCell.swift */,
+				AC7B5F3521C4706E003078CC /* paymentsCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC38931C1FE0A97A0012EC4C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AC92A7DA214CDE2B00630AA1 /* MassMessagingViewController.swift */,
+				AC92A7E0214CDE3200630AA1 /* MediaDetailViewController.swift */,
+				AC92A7DD214CDE2E00630AA1 /* MediaTableViewController.swift */,
+				AC92A7DC214CDE2C00630AA1 /* menuViewController.swift */,
+				AC92A7D9214CDE2A00630AA1 /* MessagesController.swift */,
+				AC92A7DE214CDE3000630AA1 /* newMessageController.swift */,
+				AC92A7D1214CDE2400630AA1 /* PastorialBlogDetailViewController.swift */,
+				AC92A7D3214CDE2500630AA1 /* PastorialBlogViewController.swift */,
+				AC9F56522177D3F70032374A /* PastorsBlogListViewController.swift */,
+				AC92A7D7214CDE2800630AA1 /* PrayerDetailViewController.swift */,
+				AC92A7D8214CDE2900630AA1 /* PrayerViewController.swift */,
+				AC92A7E1214CDE3300630AA1 /* socialDetailImageViewController.swift */,
+				AC92A7D2214CDE2400630AA1 /* SocialDetailViewController.swift */,
+				AC92A7D4214CDE2600630AA1 /* socialMediaViewController.swift */,
+				AC92A7DB214CDE2B00630AA1 /* someClassViewController.swift */,
+				AC92A7DF214CDE3100630AA1 /* StudentViewController.swift */,
+				AC92A7D6214CDE2800630AA1 /* TermsAndPoliciesViewController.swift */,
+				AC92A7E3214CDE3600630AA1 /* userProfileViewController.swift */,
+				AC92A7D5214CDE2700630AA1 /* WalkthroughContentViewController.swift */,
+				AC92A7E4214CDE3700630AA1 /* walkthroughPageViewController.swift */,
+				AC92A7E2214CDE3500630AA1 /* WeeklyBullitenTableViewController.swift */,
+				AC92A7A4214CDE0100630AA1 /* AddClassViewController.swift */,
+				AC92A7A5214CDE0200630AA1 /* AddEventViewController.swift */,
+				AC92A7A8214CDE0300630AA1 /* AddPastorialBlogViewController.swift */,
+				AC92A7AF214CDE0700630AA1 /* AddPrayerViewController.swift */,
+				AC92A7AC214CDE0600630AA1 /* AddSocialViewController.swift */,
+				AC92A7B3214CDE0A00630AA1 /* AddStudentViewController.swift */,
+				AC92A7B1214CDE0900630AA1 /* AdministratorControlViewController.swift */,
+				AC92A7B4214CDE0A00630AA1 /* BibleChaptersTableViewController.swift */,
+				AC92A7B7214CDE0C00630AA1 /* BibleVerseTableViewController.swift */,
+				AC92A7B8214CDE0D00630AA1 /* BibleVersionsTableViewController.swift */,
+				AC92A7B9214CDE0E00630AA1 /* BibleViewController.swift */,
+				AC92A7A6214CDE0200630AA1 /* ChatLogControllerOne.swift */,
+				AC92A7B0214CDE0800630AA1 /* ChatLogControllerTableViewController.swift */,
+				AC92A7AE214CDE0700630AA1 /* ChurchEditInfoViewController.swift */,
+				AC92A7B2214CDE0900630AA1 /* ChurchInfoViewController.swift */,
+				AC92A7A7214CDE0300630AA1 /* ChurchMainViewController.swift */,
+				AC92A7AB214CDE0500630AA1 /* ChurchSignInViewController.swift */,
+				AC92A7A9214CDE0400630AA1 /* ChurchSignupViewController.swift */,
+				AC92A7A3214CDE0100630AA1 /* ClassesViewControllerTableViewController.swift */,
+				AC92A7B6214CDE0C00630AA1 /* EventMapViewViewController.swift */,
+				AC92A7AD214CDE0600630AA1 /* EventsDetailViewController.swift */,
+				AC92A7B5214CDE0B00630AA1 /* EventsImageDetailViewController.swift */,
+				AC92A7AA214CDE0400630AA1 /* EventsViewController.swift */,
+				AC9F56562177D9C20032374A /* AddPastorTableViewController.swift */,
+				ACFE50E02194020100B888DE /* AudioTableViewController.swift */,
+				AC1844A52196518B005F77C6 /* ReportsViewController.swift */,
+				AC812540214CC6E2002B7DB6 /* Groups */,
+				AC1844A721965325005F77C6 /* ReportsDetailViewController.swift */,
+				AC68213C21BA0802001B521A /* addUserViewController.swift */,
+				AC7E49F421C3A21200C4F718 /* ChooseUsersViewController.swift */,
+				AC7B5F3321C46DE0003078CC /* PaymentCollectionViewController.swift */,
+				AC7A41B921C9A63E001E3661 /* ComplaintNotesViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AC812540214CC6E2002B7DB6 /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				AC176FED21DA7354005720D4 /* GroupDiscussionViewController.swift */,
+				AC812548214CC7B1002B7DB6 /* FindMeetupsViewController.swift */,
+				AC81254A214CC7CF002B7DB6 /* GroupIntroViewController.swift */,
+				AC812543214CC741002B7DB6 /* GroupMemberListTableViewController.swift */,
+				AC812546214CC792002B7DB6 /* GroupMembersViewController.swift */,
+				AC812544214CC76C002B7DB6 /* GroupPageViewController.swift */,
+				AC812549214CC7BF002B7DB6 /* NewGroupMeetupViewController.swift */,
+				AC812545214CC786002B7DB6 /* NewGroupViewController.swift */,
+				AC81254B214CC7E1002B7DB6 /* TableViewController.swift */,
+				AC812547214CC7A5002B7DB6 /* YourMemberGroupsTableViewController.swift */,
+				AC812541214CC72A002B7DB6 /* CategoriesViewController.swift */,
+			);
+			path = Groups;
+			sourceTree = "<group>";
+		};
+		ACC77E6B1FF39B48008B7C9B /* DataServer */ = {
+			isa = PBXGroup;
+			children = (
+				AC92A7A0214CDDBA00630AA1 /* MinistryServer.swift */,
+				AC81256D214CCAB5002B7DB6 /* ServerData.swift */,
+			);
+			path = DataServer;
+			sourceTree = "<group>";
+		};
+		ACDAD8F22013562000AB022C /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				ACDAD8F32013562000AB022C /* iCarousel */,
+				ACDAD8F62013562000AB022C /* LICENCE.md */,
+				ACDAD8F72013562000AB022C /* README.md */,
+			);
+			name = iCarousel;
+			path = Pods/iCarousel;
+			sourceTree = "<group>";
+		};
+		ACDAD8F32013562000AB022C /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				ACDAD8F42013562000AB022C /* iCarousel.h */,
+				ACDAD8F52013562000AB022C /* iCarousel.m */,
+			);
+			path = iCarousel;
+			sourceTree = "<group>";
+		};
+		FAB6A9A846E31A5448C67D2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC947203217019DA00F7B6D1 /* Siren.framework */,
+				ACAB06712032CA8B00CE466F /* Alamofire.framework */,
+				E557FEC618B4CB97247EE695 /* Pods_ChurchAppOne.framework */,
+				5AE8066BB618B2256615AF0B /* Pods_TCIApp.framework */,
+				8B02356CB01FB5424DCFB553 /* Pods_ChurchAppOne_Full_.framework */,
+				1244B560D121F72A0DC0763F /* Pods_OKCityChurch.framework */,
+				856252A265CA7F67F8296A6F /* Pods_TCIOKCApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC3893041FE09F0C0012EC4C /* TCIOKCApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC3893171FE09F0C0012EC4C /* Build configuration list for PBXNativeTarget "TCIOKCApp" */;
+			buildPhases = (
+				A865EC0DF9DD189B8AF30437 /* [CP] Check Pods Manifest.lock */,
+				AC3893011FE09F0C0012EC4C /* Sources */,
+				AC3893021FE09F0C0012EC4C /* Frameworks */,
+				AC3893031FE09F0C0012EC4C /* Resources */,
+				FD942CB6F668891C791ADEA4 /* [CP] Embed Pods Frameworks */,
+				2C411E7C3B427026E63524F8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TCIOKCApp;
+			productName = ChurchAppOne;
+			productReference = AC3893051FE09F0C0012EC4C /* TCIOKCApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC3892FD1FE09F0C0012EC4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "City Church";
+				TargetAttributes = {
+					AC3893041FE09F0C0012EC4C = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = AC3893001FE09F0C0012EC4C /* Build configuration list for PBXProject "TCIOKCApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC3892FC1FE09F0C0012EC4C;
+			productRefGroup = AC3893061FE09F0C0012EC4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC3893041FE09F0C0012EC4C /* TCIOKCApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC3893031FE09F0C0012EC4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC7A41BE21CA03CE001E3661 /* GoogleService-Info.plist in Resources */,
+				ACDAD8FA2013562000AB022C /* README.md in Resources */,
+				AC214145205CEC8E00633937 /* ChiUns.json in Resources */,
+				AC214143205CEC7F00633937 /* ASV.json in Resources */,
+				AC96CB9B21384B2500D3D087 /* Images.xcassets in Resources */,
+				ACA1F85B206745A7008F8392 /* ESV.json in Resources */,
+				ACDAD8F92013562000AB022C /* LICENCE.md in Resources */,
+				AC96CB99213846A300D3D087 /* Launch Screen.storyboard in Resources */,
+				AC214141205CDE4100633937 /* KJVA.json in Resources */,
+				AC3893101FE09F0C0012EC4C /* Assets.xcassets in Resources */,
+				ACA1F85D206747C7008F8392 /* NETfree.json in Resources */,
+				AC38930E1FE09F0C0012EC4C /* Main.storyboard in Resources */,
+				AC2E93C9205CF1A500D3A293 /* KJV.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C411E7C3B427026E63524F8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TCIOKCApp/Pods-TCIOKCApp-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TCIOKCApp/Pods-TCIOKCApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A865EC0DF9DD189B8AF30437 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TCIOKCApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD942CB6F668891C791ADEA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TCIOKCApp/Pods-TCIOKCApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/FontAwesomeKit/FontAwesomeKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/PagingTableView/PagingTableView.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/Siren/Siren.framework",
+				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
+				"${BUILT_PRODUCTS_DIR}/iCarousel/iCarousel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontAwesomeKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PagingTableView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Siren.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spring.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iCarousel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TCIOKCApp/Pods-TCIOKCApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC3893011FE09F0C0012EC4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC81254D214CC7E4002B7DB6 /* GroupPageViewController.swift in Sources */,
+				AC92A7C4214CDE0E00630AA1 /* EventsDetailViewController.swift in Sources */,
+				AC92A824214CDE6C00630AA1 /* StudentAttendanceCell.swift in Sources */,
+				AC92A7E7214CDE3700630AA1 /* PastorialBlogViewController.swift in Sources */,
+				AC92A815214CDE6C00630AA1 /* MediaDetailTableViewCell.swift in Sources */,
+				AC92A83F214CDE8D00630AA1 /* Administrator.swift in Sources */,
+				AC92A7EA214CDE3700630AA1 /* TermsAndPoliciesViewController.swift in Sources */,
+				AC176FF021DA754A005720D4 /* GroupDiscussionTableViewCell.swift in Sources */,
+				AC92A822214CDE6C00630AA1 /* AdministratorControlTableViewCell.swift in Sources */,
+				AC812566214CC8CF002B7DB6 /* CollectionViewCell.swift in Sources */,
+				AC92A7ED214CDE3700630AA1 /* MessagesController.swift in Sources */,
+				AC5DF69821A86A2C0002ECD6 /* ChurchAudioFiles.swift in Sources */,
+				AC92A816214CDE6C00630AA1 /* ClassesCell.swift in Sources */,
+				AC812542214CC72D002B7DB6 /* CategoriesViewController.swift in Sources */,
+				AC92A7BD214CDE0E00630AA1 /* ChatLogControllerOne.swift in Sources */,
+				AC1844A821965325005F77C6 /* ReportsDetailViewController.swift in Sources */,
+				AC92A817214CDE6C00630AA1 /* SocialTableViewCell.swift in Sources */,
+				AC92A84B214CDE8D00630AA1 /* Books.swift in Sources */,
+				AC92A810214CDE6C00630AA1 /* MainCollectionViewCell.swift in Sources */,
+				ACFE50E12194020100B888DE /* AudioTableViewController.swift in Sources */,
+				AC92A7CE214CDE0E00630AA1 /* BibleVerseTableViewController.swift in Sources */,
+				AC92A81A214CDE6C00630AA1 /* BibleVersionsTableViewCell.swift in Sources */,
+				AC92A7C5214CDE0E00630AA1 /* ChurchEditInfoViewController.swift in Sources */,
+				AC92A7F2214CDE3700630AA1 /* newMessageController.swift in Sources */,
+				AC92A83B214CDE8D00630AA1 /* Bulliten.swift in Sources */,
+				AC92A83C214CDE8D00630AA1 /* Media.swift in Sources */,
+				AC812552214CC7E4002B7DB6 /* NewGroupMeetupViewController.swift in Sources */,
+				AC92A7C2214CDE0E00630AA1 /* ChurchSignInViewController.swift in Sources */,
+				AC92A842214CDE8D00630AA1 /* ChurchUser.swift in Sources */,
+				AC7A41BA21C9A63E001E3661 /* ComplaintNotesViewController.swift in Sources */,
+				AC92A84C214CDE8D00630AA1 /* VideoModel.swift in Sources */,
+				AC92A812214CDE6C00630AA1 /* weeklyBullitenTableViewCell.swift in Sources */,
+				AC92A83E214CDE8D00630AA1 /* Student.swift in Sources */,
+				AC812553214CC7E4002B7DB6 /* GroupIntroViewController.swift in Sources */,
+				AC92A846214CDE8D00630AA1 /* Message.swift in Sources */,
+				AC68213D21BA0802001B521A /* addUserViewController.swift in Sources */,
+				AC92A841214CDE8D00630AA1 /* Prayer.swift in Sources */,
+				AC92A7C3214CDE0E00630AA1 /* AddSocialViewController.swift in Sources */,
+				AC92A7C7214CDE0E00630AA1 /* ChatLogControllerTableViewController.swift in Sources */,
+				AC9F56532177D3F70032374A /* PastorsBlogListViewController.swift in Sources */,
+				AC812563214CC8CF002B7DB6 /* CalendarMeetupsTableViewCell.swift in Sources */,
+				AC92A81B214CDE6C00630AA1 /* profileTableViewCell.swift in Sources */,
+				AC92A7BA214CDE0E00630AA1 /* ClassesViewControllerTableViewController.swift in Sources */,
+				AC92A7EB214CDE3700630AA1 /* PrayerDetailViewController.swift in Sources */,
+				AC92A840214CDE8D00630AA1 /* User.swift in Sources */,
+				AC812569214CC8CF002B7DB6 /* GroupMembersCollectionViewCell.swift in Sources */,
+				AC92A7F4214CDE3700630AA1 /* MediaDetailViewController.swift in Sources */,
+				AC92A7CF214CDE0E00630AA1 /* BibleVersionsTableViewController.swift in Sources */,
+				AC92A7E6214CDE3700630AA1 /* SocialDetailViewController.swift in Sources */,
+				AC92A7EF214CDE3700630AA1 /* someClassViewController.swift in Sources */,
+				AC92A7BC214CDE0E00630AA1 /* AddEventViewController.swift in Sources */,
+				AC92A7F6214CDE3700630AA1 /* WeeklyBullitenTableViewController.swift in Sources */,
+				AC81254F214CC7E4002B7DB6 /* GroupMembersViewController.swift in Sources */,
+				AC92A7CD214CDE0E00630AA1 /* EventMapViewViewController.swift in Sources */,
+				AC92A80F214CDE6C00630AA1 /* chatLogCell.swift in Sources */,
+				AC92A83D214CDE8D00630AA1 /* Event.swift in Sources */,
+				AC81256A214CC8CF002B7DB6 /* AllGroupsCollectionViewCell.swift in Sources */,
+				AC92A823214CDE6C00630AA1 /* someClassCell.swift in Sources */,
+				AC92A7F7214CDE3800630AA1 /* userProfileViewController.swift in Sources */,
+				AC92A7D0214CDE0E00630AA1 /* BibleViewController.swift in Sources */,
+				AC92A845214CDE8D00630AA1 /* Attendance.swift in Sources */,
+				AC92A7F3214CDE3700630AA1 /* StudentViewController.swift in Sources */,
+				AC7B5F3621C4706E003078CC /* paymentsCollectionViewCell.swift in Sources */,
+				AC92A7CA214CDE0E00630AA1 /* AddStudentViewController.swift in Sources */,
+				AC92A818214CDE6C00630AA1 /* VerseTableViewCell.swift in Sources */,
+				AC81256B214CC8CF002B7DB6 /* MeetupCollectionViewCell.swift in Sources */,
+				AC92A7E5214CDE3700630AA1 /* PastorialBlogDetailViewController.swift in Sources */,
+				AC92A811214CDE6C00630AA1 /* MessagesCell.swift in Sources */,
+				AC812564214CC8CF002B7DB6 /* YourMemberGroupsTableViewCell.swift in Sources */,
+				AC92A7CC214CDE0E00630AA1 /* EventsImageDetailViewController.swift in Sources */,
+				AC92A7CB214CDE0E00630AA1 /* BibleChaptersTableViewController.swift in Sources */,
+				AC92A7EE214CDE3700630AA1 /* MassMessagingViewController.swift in Sources */,
+				AC92A820214CDE6C00630AA1 /* BibleTableViewCell.swift in Sources */,
+				AC92A848214CDE8D00630AA1 /* BibleModel.swift in Sources */,
+				AC812550214CC7E4002B7DB6 /* YourMemberGroupsTableViewController.swift in Sources */,
+				AC5DF69621A864C10002ECD6 /* AudioListTableViewCell.swift in Sources */,
+				AC56976E20318FF800DF7E9B /* SlideDownTransitionAnimator.swift in Sources */,
+				AC81254C214CC7E4002B7DB6 /* GroupMemberListTableViewController.swift in Sources */,
+				AC9F56552177D5F10032374A /* PastorsListTableViewCell.swift in Sources */,
+				AC1844A62196518B005F77C6 /* ReportsViewController.swift in Sources */,
+				AC812551214CC7E4002B7DB6 /* FindMeetupsViewController.swift in Sources */,
+				AC92A821214CDE6C00630AA1 /* MediaTableViewCell.swift in Sources */,
+				AC92A843214CDE8D00630AA1 /* Class.swift in Sources */,
+				AC92A7E9214CDE3700630AA1 /* WalkthroughContentViewController.swift in Sources */,
+				AC9F56572177D9C20032374A /* AddPastorTableViewController.swift in Sources */,
+				AC92A81C214CDE6C00630AA1 /* PastorialBlogDetailTableViewCell.swift in Sources */,
+				ACDAD8F82013562000AB022C /* iCarousel.m in Sources */,
+				AC81256E214CCAB5002B7DB6 /* ServerData.swift in Sources */,
+				AC1844AC219664C9005F77C6 /* ComplaintTableViewCell.swift in Sources */,
+				AC92A7F5214CDE3700630AA1 /* socialDetailImageViewController.swift in Sources */,
+				AC92A819214CDE6C00630AA1 /* adminUserDetailTableViewCell.swift in Sources */,
+				AC812568214CC8CF002B7DB6 /* GroupIntroTableViewCell.swift in Sources */,
+				AC92A814214CDE6C00630AA1 /* profileCollectionViewCell.swift in Sources */,
+				AC812565214CC8CF002B7DB6 /* MeetupGroupMemberCollectionViewCell.swift in Sources */,
+				AC812556214CC81C002B7DB6 /* Group.swift in Sources */,
+				AC92A7C0214CDE0E00630AA1 /* ChurchSignupViewController.swift in Sources */,
+				AC92A7BB214CDE0E00630AA1 /* AddClassViewController.swift in Sources */,
+				AC92A7BE214CDE0E00630AA1 /* ChurchMainViewController.swift in Sources */,
+				AC92A81D214CDE6C00630AA1 /* PrayerTableViewCell.swift in Sources */,
+				AC92A7C8214CDE0E00630AA1 /* AdministratorControlViewController.swift in Sources */,
+				AC92A7EC214CDE3700630AA1 /* PrayerViewController.swift in Sources */,
+				AC92A84E214CE0BA00630AA1 /* AppDelegate.swift in Sources */,
+				AC879C50217EF99400B8ADA0 /* participationPostsCollectionViewCell.swift in Sources */,
+				AC176FEE21DA7357005720D4 /* GroupDiscussionViewController.swift in Sources */,
+				AC812562214CC8CF002B7DB6 /* GroupMembersListTableViewCell.swift in Sources */,
+				AC7E49F521C3A21200C4F718 /* ChooseUsersViewController.swift in Sources */,
+				AC1844AA21965E45005F77C6 /* Complaint.swift in Sources */,
+				AC92A813214CDE6C00630AA1 /* PastorialBlogTableViewCell.swift in Sources */,
+				AC92A7C1214CDE0E00630AA1 /* EventsViewController.swift in Sources */,
+				AC92A7BF214CDE0E00630AA1 /* AddPastorialBlogViewController.swift in Sources */,
+				AC92A84A214CDE8D00630AA1 /* Social.swift in Sources */,
+				AC92A849214CDE8D00630AA1 /* Main.swift in Sources */,
+				AC92A847214CDE8D00630AA1 /* Blog.swift in Sources */,
+				AC92A7F0214CDE3700630AA1 /* menuViewController.swift in Sources */,
+				AC92A83A214CDE8D00630AA1 /* Ministry.swift in Sources */,
+				AC92A7E8214CDE3700630AA1 /* socialMediaViewController.swift in Sources */,
+				AC92A7F1214CDE3700630AA1 /* MediaTableViewController.swift in Sources */,
+				AC92A839214CDE8D00630AA1 /* Video.swift in Sources */,
+				AC92A7F8214CDE3800630AA1 /* walkthroughPageViewController.swift in Sources */,
+				AC92A7A1214CDDBC00630AA1 /* MinistryServer.swift in Sources */,
+				AC81256C214CC8CF002B7DB6 /* TableViewCell.swift in Sources */,
+				AC81254E214CC7E4002B7DB6 /* NewGroupViewController.swift in Sources */,
+				AC812554214CC7E4002B7DB6 /* TableViewController.swift in Sources */,
+				AC92A81E214CDE6C00630AA1 /* NewMessageControllerTableViewCell.swift in Sources */,
+				AC812567214CC8CF002B7DB6 /* AllGroupsTableViewCell.swift in Sources */,
+				AC7B5F3421C46DE0003078CC /* PaymentCollectionViewController.swift in Sources */,
+				AC92A81F214CDE6C00630AA1 /* EventsCollectionViewCell.swift in Sources */,
+				AC92A844214CDE8D00630AA1 /* Church.swift in Sources */,
+				AC92A7C6214CDE0E00630AA1 /* AddPrayerViewController.swift in Sources */,
+				AC92A7C9214CDE0E00630AA1 /* ChurchInfoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC38930C1FE09F0C0012EC4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC38930D1FE09F0C0012EC4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC3893151FE09F0C0012EC4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC3893161FE09F0C0012EC4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC3893181FE09F0C0012EC4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F51D0DA9E28A1C8488453257 /* Pods-TCIOKCApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = TCIOKC/TCIOKC.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5Z75SK48JU;
+				INFOPLIST_FILE = "$(SRCROOT)/TCIOKC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TCIOKCApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AC3893191FE09F0C0012EC4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7F56660E82A1AFBDD903C1C /* Pods-TCIOKCApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = TCIOKC/TCIOKC.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5Z75SK48JU;
+				INFOPLIST_FILE = "$(SRCROOT)/TCIOKC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TCIOKCApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC3893001FE09F0C0012EC4C /* Build configuration list for PBXProject "TCIOKCApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3893151FE09F0C0012EC4C /* Debug */,
+				AC3893161FE09F0C0012EC4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC3893171FE09F0C0012EC4C /* Build configuration list for PBXNativeTarget "TCIOKCApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3893181FE09F0C0012EC4C /* Debug */,
+				AC3893191FE09F0C0012EC4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC3892FD1FE09F0C0012EC4C /* Project object */;
+}
