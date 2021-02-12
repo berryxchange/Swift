@@ -114,20 +114,92 @@ func insertionSortAsGeneric<T>(_ array: [T], _ isOrderedBefore: (T, T) -> Bool) 
  */*/
 
 
-var unsortedItems = ["Kitten", "Doggy", "Wei Wei", "Angela", "Mikey", "Donna"]
 
-func sortStringItems(_ array: [String]) -> [String]{
-    var sortedStringArray = array
+
+
+var unsortedData: [String] = ["Kathy", "Clothes", "Chicago", "Just Shoot Me", "Blade", "Samuarai Pizza Cats"]
+
+func sortStringData(_ array: [String]) -> [String]{
+    var sortedStringData = array
     
-    for index in 1..<sortedStringArray.count{
+    for index in 1 ..< sortedStringData.count{
         var currentIndex = index
-        while currentIndex > 0 && sortedStringArray[currentIndex] < sortedStringArray[currentIndex - 1]{
-            sortedStringArray.swapAt(currentIndex - 1, currentIndex)
-            
+        while currentIndex > 0 && array[currentIndex] < array[currentIndex - 1]{
+            sortedStringData.swapAt(currentIndex, currentIndex - 1)
             currentIndex -= 1
         }
     }
-    return sortedStringArray
+    
+    return sortedStringData
 }
 
-sortStringItems(unsortedItems)
+
+sortStringData(unsortedData)
+
+
+
+
+struct WordDatabase{
+    
+    fileprivate var wordDatabase = [String]()
+    
+    mutating func addWordToDatabase(wordToInput: String){
+        wordDatabase.append(wordToInput)
+        print("\(wordToInput) has been added to the database!")
+    }
+    
+    mutating func removeItemFromList(wordToRemove: String){
+        let dataToRemove = wordDatabase.firstIndex(of: wordToRemove)
+        checkIfDataToRemoveIsPresent(data: dataToRemove, item: wordToRemove)
+    }
+    
+    func findItem(item: String){
+        let data = wordDatabase.firstIndex(of: item)
+        checkIfDataToReadIsPresent(data: data, item: item)
+    }
+
+    fileprivate func checkIfDataToReadIsPresent(data: Int?, item: String){
+        if data != nil{
+            print("\(item) is located at : index \(data!)")
+        }else{
+            print("Sorry your item cannot be found in the list...")
+        }
+    }
+    
+    fileprivate mutating func checkIfDataToRemoveIsPresent(data: Int?, item: String){
+        if data != nil{
+            print("\(item) is located at : index \(data!)")
+            removeItemFromList(itemIndex: data!, item: item)
+            
+        }else{
+            print("Sorry your item cannot be found in the list...")
+        }
+    }
+    
+    mutating func removeItemFromList(itemIndex: Int, item: String){
+        self.wordDatabase.remove(at: itemIndex)
+        print("\(item) has been removed from database")
+        findItem(item: item)
+    }
+}
+
+
+
+
+
+var wordDatabase = WordDatabase()
+wordDatabase.addWordToDatabase(wordToInput: "Bananas")
+wordDatabase.findItem(item: "Bananas")
+
+wordDatabase.addWordToDatabase(wordToInput: "Coffee")
+wordDatabase.addWordToDatabase(wordToInput: "Turtles")
+wordDatabase.addWordToDatabase(wordToInput: "Butter Nut Cake")
+wordDatabase.addWordToDatabase(wordToInput: "Ninja")
+wordDatabase.addWordToDatabase(wordToInput: "Aviator")
+wordDatabase.addWordToDatabase(wordToInput: "Mike")
+wordDatabase.removeItemFromList(wordToRemove: "Ninja")
+
+
+
+
+
