@@ -49,6 +49,23 @@ class UserStackWithTestingTests: XCTestCase {
     }
     
     //the array is not empty
+    func testArrayIsNotEmpty(){
+        //initialize UserStack
+        let userStack = UserStack()
+        
+        //check if userStack is not empty
+        
+        //create initialized usercount
+        let userCount = userStack.userArrayCount + 1
+        
+        //add a user
+        userStack.pushToUserStack(user: UserModel(firstName: "Carl", lastName: "Mosby", age: 30, userName: "CMosby"))
+        
+        
+        //check if user is not empty
+        XCTAssertEqual(userStack.userArrayCount, userCount)
+        
+    }
     
 
     func testPerformanceExample() throws {
