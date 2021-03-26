@@ -104,4 +104,38 @@ extension UserStackWithTestingTests{
 }
 
 
-
+//test peeking a user from the userStack
+extension UserStackWithTestingTests{
+    
+    //check peeking the last user
+    func testPeekLastUser(){
+        //initialize userStack
+        let userStack = UserStack()
+        
+        //check if userStack is not empty
+        XCTAssertTrue(userStack.arrayIsEmpty)
+    
+        
+        //check if userStack is not empty
+        XCTAssertTrue(userStack.arrayIsEmpty)
+        
+        //check if the user is the last user
+        //add multiple users to the list
+        userStack.pushToUserStack(user: UserModel(firstName: "Carl", lastName: "Mosby", age: 30, userName: "CMosby"))
+        
+     
+        userStack.pushToUserStack(user: UserModel(firstName: "danny", lastName: "Mosby", age: 31, userName: "DMosby"))
+        
+    
+        userStack.pushToUserStack(user: UserModel(firstName: "Scott", lastName: "Mosby", age: 20, userName: "SMosby"))
+        
+        //check the last user firstName
+        XCTAssertEqual(userStack.peekLastUser().firstName, "Scott")
+        
+        //pop last user then test last user again
+        userStack.popLastUser()
+        XCTAssertEqual(userStack.peekLastUser().firstName, "danny")
+        
+    }
+    
+}
