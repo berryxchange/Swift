@@ -15,6 +15,10 @@
 		ACEA4B41260D9E4100AFA689 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACEA4B3F260D9E4100AFA689 /* LaunchScreen.storyboard */; };
 		ACEA4B4C260D9E4100AFA689 /* UserStackWithTestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEA4B4B260D9E4100AFA689 /* UserStackWithTestingTests.swift */; };
 		ACEA4B57260D9E4100AFA689 /* UserStackWithTestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEA4B56260D9E4100AFA689 /* UserStackWithTestingUITests.swift */; };
+		ACEA4B68260DA0CB00AFA689 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEA4B67260DA0CB00AFA689 /* UserModel.swift */; };
+		ACEA4B72260DA18500AFA689 /* UserStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEA4B71260DA18500AFA689 /* UserStack.swift */; };
+		ACEA4B7F260DA86500AFA689 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEA4B67260DA0CB00AFA689 /* UserModel.swift */; };
+		ACEA4B83260DA86700AFA689 /* UserStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEA4B71260DA18500AFA689 /* UserStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,8 @@
 		ACEA4B52260D9E4100AFA689 /* UserStackWithTestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserStackWithTestingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACEA4B56260D9E4100AFA689 /* UserStackWithTestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStackWithTestingUITests.swift; sourceTree = "<group>"; };
 		ACEA4B58260D9E4200AFA689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACEA4B67260DA0CB00AFA689 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		ACEA4B71260DA18500AFA689 /* UserStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,8 @@
 		ACEA4B33260D9E3E00AFA689 /* UserStackWithTesting */ = {
 			isa = PBXGroup;
 			children = (
+				ACEA4B70260DA17300AFA689 /* UserStack */,
+				ACEA4B6C260DA0D000AFA689 /* Model */,
 				ACEA4B34260D9E3E00AFA689 /* AppDelegate.swift */,
 				ACEA4B36260D9E3E00AFA689 /* SceneDelegate.swift */,
 				ACEA4B38260D9E3E00AFA689 /* ViewController.swift */,
@@ -126,6 +134,22 @@
 				ACEA4B58260D9E4200AFA689 /* Info.plist */,
 			);
 			path = UserStackWithTestingUITests;
+			sourceTree = "<group>";
+		};
+		ACEA4B6C260DA0D000AFA689 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ACEA4B67260DA0CB00AFA689 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ACEA4B70260DA17300AFA689 /* UserStack */ = {
+			isa = PBXGroup;
+			children = (
+				ACEA4B71260DA18500AFA689 /* UserStack.swift */,
+			);
+			path = UserStack;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +284,8 @@
 			files = (
 				ACEA4B39260D9E3E00AFA689 /* ViewController.swift in Sources */,
 				ACEA4B35260D9E3E00AFA689 /* AppDelegate.swift in Sources */,
+				ACEA4B68260DA0CB00AFA689 /* UserModel.swift in Sources */,
+				ACEA4B72260DA18500AFA689 /* UserStack.swift in Sources */,
 				ACEA4B37260D9E3E00AFA689 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +294,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACEA4B7F260DA86500AFA689 /* UserModel.swift in Sources */,
+				ACEA4B83260DA86700AFA689 /* UserStack.swift in Sources */,
 				ACEA4B4C260D9E4100AFA689 /* UserStackWithTestingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
