@@ -40,6 +40,14 @@ class UserStackWithTestingTests: XCTestCase {
     }
     
     // the array count is zero
+    func testArrayCountIsZero(){
+        //initialize the stack
+        let userStack = UserStack()
+        
+        //check if stack is at zero users
+        XCTAssertEqual(userStack.userArrayCount, 0)
+    }
+    
     //the array is not empty
     
 
