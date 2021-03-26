@@ -48,7 +48,26 @@ class UserStackWithTestingTests: XCTestCase {
         XCTAssertEqual(userStack.userArrayCount, 0)
     }
     
+    
     //the array is not empty
+    func testArrayIsNotEmpty(){
+        //initialize UserStack
+        let userStack = UserStack()
+        
+        //check if userStack is not empty
+        
+        //create initialized usercount
+        let userCount = userStack.userArrayCount + 1
+        
+        //add a user
+        userStack.pushToUserStack(user: UserModel(firstName: "Carl", lastName: "Mosby", age: 30, userName: "CMosby"))
+        
+        
+        //check if user is not empty
+        XCTAssertEqual(userStack.userArrayCount, userCount)
+        
+    }
+    
     
 
     func testPerformanceExample() throws {
@@ -57,5 +76,129 @@ class UserStackWithTestingTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+}
 
+
+//Test adding a user to the stack
+extension UserStackWithTestingTests{
+    
+    //test pushToUserStack
+    func testPushToUserStack(){
+        //initialize userStack
+        let userStack = UserStack()
+        
+        //check if array is empty
+        XCTAssertTrue(userStack.arrayIsEmpty)
+        
+        
+        //initialize userCount with one addition
+        let userCount = userStack.userArrayCount + 1
+        
+        //add user to stack
+        userStack.pushToUserStack(user: UserModel(firstName: "Carl", lastName: "Mosby", age: 30, userName: "CMosby"))
+        
+        //check if user stack is not empty
+        XCTAssertEqual(userStack.userArrayCount, userCount)
+        
+    }
+}
+
+
+//test peeking a user from the userStack
+extension UserStackWithTestingTests{
+    
+    //check peeking the last user
+    func testPeekLastUser(){
+        //initialize userStack
+        let userStack = UserStack()
+        
+        //check if userStack is empty
+        XCTAssertTrue(userStack.arrayIsEmpty)
+        
+        //check if the user is the last user
+        //add multiple users to the list
+        userStack.pushToUserStack(user: UserModel(firstName: "Carl", lastName: "Mosby", age: 30, userName: "CMosby"))
+        
+     
+        userStack.pushToUserStack(user: UserModel(firstName: "danny", lastName: "Mosby", age: 31, userName: "DMosby"))
+        
+    
+        userStack.pushToUserStack(user: UserModel(firstName: "Scott", lastName: "Mosby", age: 20, userName: "SMosby"))
+        
+        //check the last user firstName
+        XCTAssertEqual(userStack.peekLastUser().firstName, "Scott")
+        
+        //pop last user then test last user again
+        userStack.popLastUser()
+        XCTAssertEqual(userStack.peekLastUser().firstName, "danny")
+        
+    }
+    
+}
+
+
+//test poping a user from the userStack
+extension UserStackWithTestingTests{
+    
+    //check poping the last user
+    func testPopLastUser(){
+        //initialize userStack
+        let userStack = UserStack()
+        
+        //check if userStack is empty
+        XCTAssertTrue(userStack.arrayIsEmpty)
+    
+    
+        //check if the user is the last user
+        //add multiple users to the list
+        userStack.pushToUserStack(user: UserModel(firstName: "Carl", lastName: "Mosby", age: 30, userName: "CMosby"))
+        
+     
+        userStack.pushToUserStack(user: UserModel(firstName: "danny", lastName: "Mosby", age: 31, userName: "DMosby"))
+        
+        
+        //check the last user firstName
+        XCTAssertEqual(userStack.peekLastUser().firstName, "danny")
+        
+        //pop last user then test last user again
+        userStack.popLastUser()
+        
+        XCTAssertEqual(userStack.peekLastUser().firstName, "Carl")
+        
+    }
+    
+    //check after poping the last user if array is empty
+    
+    func testPopLastUserIsEmptyArray(){
+        //initialize userStack
+        let userStack = UserStack()
+        
+        //check if userStack is empty
+        XCTAssertTrue(userStack.arrayIsEmpty)
+    
+    
+        //check if the user is the last user
+        //add user to the list
+        userStack.pushToUserStack(user: UserModel(firstName: "Carl", lastName: "Mosby", age: 30, userName: "CMosby"))
+        
+        //check the last user firstName
+        XCTAssertEqual(userStack.peekLastUser().firstName, "Carl")
+        
+        
+        //set the userCount
+        let userCount = userStack.userArrayCount - 1
+        
+        
+        //pop last user then test last user again
+        userStack.popLastUser()
+        
+        //check if stack is 0
+        XCTAssertEqual(userStack.userArrayCount, userCount)
+        
+        //check if stack is empty
+        XCTAssertTrue(userStack.arrayIsEmpty)
+        
+    }
+    
+    
 }
