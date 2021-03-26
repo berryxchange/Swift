@@ -48,6 +48,7 @@ class UserStackWithTestingTests: XCTestCase {
         XCTAssertEqual(userStack.userArrayCount, 0)
     }
     
+    
     //the array is not empty
     func testArrayIsNotEmpty(){
         //initialize UserStack
@@ -67,6 +68,7 @@ class UserStackWithTestingTests: XCTestCase {
         
     }
     
+    
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
@@ -74,5 +76,32 @@ class UserStackWithTestingTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-
 }
+
+
+//Test adding a user to the stack
+extension UserStackWithTestingTests{
+    
+    //test pushToUserStack
+    func testPushToUserStack(){
+        //initialize userStack
+        let userStack = UserStack()
+        
+        //check if array is empty
+        XCTAssertTrue(userStack.arrayIsEmpty)
+        
+        
+        //initialize userCount with one addition
+        let userCount = userStack.userArrayCount + 1
+        
+        //add user to stack
+        userStack.pushToUserStack(user: UserModel(firstName: "Carl", lastName: "Mosby", age: 30, userName: "CMosby"))
+        
+        //check if user stack is not empty
+        XCTAssertEqual(userStack.userArrayCount, userCount)
+        
+    }
+}
+
+
+
