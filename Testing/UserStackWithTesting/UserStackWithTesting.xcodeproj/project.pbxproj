@@ -17,6 +17,8 @@
 		ACEA4B57260D9E4100AFA689 /* UserStackWithTestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEA4B56260D9E4100AFA689 /* UserStackWithTestingUITests.swift */; };
 		ACEA4B68260DA0CB00AFA689 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEA4B67260DA0CB00AFA689 /* UserModel.swift */; };
 		ACEA4B72260DA18500AFA689 /* UserStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEA4B71260DA18500AFA689 /* UserStack.swift */; };
+		ACEA4B7F260DA86500AFA689 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEA4B67260DA0CB00AFA689 /* UserModel.swift */; };
+		ACEA4B83260DA86700AFA689 /* UserStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEA4B71260DA18500AFA689 /* UserStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -292,6 +294,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACEA4B7F260DA86500AFA689 /* UserModel.swift in Sources */,
+				ACEA4B83260DA86700AFA689 /* UserStack.swift in Sources */,
 				ACEA4B4C260D9E4100AFA689 /* UserStackWithTestingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

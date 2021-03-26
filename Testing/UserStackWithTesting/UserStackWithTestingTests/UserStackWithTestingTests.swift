@@ -18,10 +18,30 @@ class UserStackWithTestingTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+   //Stack testing
+    //the array if not filePrivate
+    /*func testUserArrayIsNotNull(){
+        // setup userStack
+        let userStack = UserStack()
+        
+        //check the userArray is not null
+        XCTAssertNotNil(userStack.userArray)
+        
     }
+ */
+    
+    //the array count is not null
+    func testArrayCountIsNotNull(){
+        //initialize the stack
+        let userStack = UserStack()
+        
+        //check if not null
+        XCTAssertNotNil(userStack.arrayIsEmpty)
+    }
+    
+    // the array count is zero
+    //the array is not empty
+    
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.

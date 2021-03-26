@@ -10,7 +10,7 @@ import Foundation
 class UserModel{
     var firstName: String
     var lastName: String
-    var age: int
+    var age: Int
     var userName: String
     
     init(firstName: String, lastName: String, age: Int, userName: String){

@@ -42,6 +42,7 @@ class UserStack{
         return thisUser
     }
     
+    
     //setup the pop on the top item of the array
     public func popLastUser() -> UserModel{
         return userArray.popLast()!
