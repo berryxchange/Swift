@@ -51,4 +51,8 @@ class ViewController: UIViewController {
         print("All set!")
     }
     
+    func clearUserInfo(){
+        thisUser = UserModel(firstName: "", lastName: "", age: 0, userName: "", password: "")
+    }
+    
 }
