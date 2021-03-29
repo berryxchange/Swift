@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     var userStack = UserStack()
     
     //Models
-    //var thisUser: UserModel!
+    var thisUser: UserModel!
     
     //Connections
     @IBOutlet weak var firstNameInput: UITextField!
@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        //thisUser = UserModel(firstName: "", lastName: "", age: 0, userName: "", password: "")
+        thisUser = UserModel(firstName: "", lastName: "", age: 0, userName: "", password: "")
     }
 
     
@@ -37,7 +37,7 @@ class ViewController: UIViewController {
     }
     
     func addUser(){
-        let thisUser = UserModel(
+        thisUser = UserModel(
             firstName: firstNameInput.text!,
             lastName: lastNameInput.text!,
             age: Int(ageInput.text!)!,

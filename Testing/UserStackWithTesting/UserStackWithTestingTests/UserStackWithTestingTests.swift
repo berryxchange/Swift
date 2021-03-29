@@ -60,7 +60,7 @@ class UserStackWithTestingTests: XCTestCase {
         let userCount = userStack.userArrayCount + 1
         
         //add a user
-        userStack.pushToUserStack(user: UserModel(firstName: "Carl", lastName: "Mosby", age: 30, userName: "CMosby"))
+        userStack.pushToUserStack(user: UserModel(firstName: "Carl", lastName: "Mosby", age: 30, userName: "CMosby", password: "fatty"))
         
         
         //check if user is not empty
@@ -95,7 +95,7 @@ extension UserStackWithTestingTests{
         let userCount = userStack.userArrayCount + 1
         
         //add user to stack
-        userStack.pushToUserStack(user: UserModel(firstName: "Carl", lastName: "Mosby", age: 30, userName: "CMosby"))
+        userStack.pushToUserStack(user: UserModel(firstName: "Carl", lastName: "Mosby", age: 30, userName: "CMosby", password: "fatty"))
         
         //check if user stack is not empty
         XCTAssertEqual(userStack.userArrayCount, userCount)
@@ -117,13 +117,13 @@ extension UserStackWithTestingTests{
         
         //check if the user is the last user
         //add multiple users to the list
-        userStack.pushToUserStack(user: UserModel(firstName: "Carl", lastName: "Mosby", age: 30, userName: "CMosby"))
+        userStack.pushToUserStack(user: UserModel(firstName: "Carl", lastName: "Mosby", age: 30, userName: "CMosby", password: "fatty"))
         
      
-        userStack.pushToUserStack(user: UserModel(firstName: "danny", lastName: "Mosby", age: 31, userName: "DMosby"))
+        userStack.pushToUserStack(user: UserModel(firstName: "danny", lastName: "Mosby", age: 31, userName: "DMosby", password: "fatty"))
         
     
-        userStack.pushToUserStack(user: UserModel(firstName: "Scott", lastName: "Mosby", age: 20, userName: "SMosby"))
+        userStack.pushToUserStack(user: UserModel(firstName: "Scott", lastName: "Mosby", age: 20, userName: "SMosby", password: "fatty"))
         
         //check the last user firstName
         XCTAssertEqual(userStack.peekLastUser().firstName, "Scott")
@@ -151,10 +151,10 @@ extension UserStackWithTestingTests{
     
         //check if the user is the last user
         //add multiple users to the list
-        userStack.pushToUserStack(user: UserModel(firstName: "Carl", lastName: "Mosby", age: 30, userName: "CMosby"))
+        userStack.pushToUserStack(user: UserModel(firstName: "Carl", lastName: "Mosby", age: 30, userName: "CMosby", password: "fatty"))
         
      
-        userStack.pushToUserStack(user: UserModel(firstName: "danny", lastName: "Mosby", age: 31, userName: "DMosby"))
+        userStack.pushToUserStack(user: UserModel(firstName: "danny", lastName: "Mosby", age: 31, userName: "DMosby", password: "fatty"))
         
         
         //check the last user firstName
@@ -179,7 +179,7 @@ extension UserStackWithTestingTests{
     
         //check if the user is the last user
         //add user to the list
-        userStack.pushToUserStack(user: UserModel(firstName: "Carl", lastName: "Mosby", age: 30, userName: "CMosby"))
+        userStack.pushToUserStack(user: UserModel(firstName: "Carl", lastName: "Mosby", age: 30, userName: "CMosby", password: "fatty"))
         
         //check the last user firstName
         XCTAssertEqual(userStack.peekLastUser().firstName, "Carl")
@@ -199,6 +199,4 @@ extension UserStackWithTestingTests{
         XCTAssertTrue(userStack.arrayIsEmpty)
         
     }
-    
-    
 }

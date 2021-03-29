@@ -24,7 +24,19 @@ class UserStackWithTestingUITests: XCTestCase {
 
     func testExample() throws {
         // UI tests must launch the application that they test.
+        
         let app = XCUIApplication()
+        app.textFields["Age"].tap()
+        
+        let usernameTextField = app.textFields["UserName"]
+        usernameTextField.tap()
+        usernameTextField.tap()
+        usernameTextField.tap()
+        
+        let passwordTextField = app.textFields["Password"]
+        passwordTextField.tap()
+        passwordTextField.tap()
+        app/*@START_MENU_TOKEN@*/.staticTexts["Add This User"]/*[[".buttons[\"Add This User\"].staticTexts[\"Add This User\"]",".staticTexts[\"Add This User\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
         app.launch()
 
         // Use recording to get started writing UI tests.

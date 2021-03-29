@@ -19,6 +19,8 @@
 		ACEA4B72260DA18500AFA689 /* UserStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEA4B71260DA18500AFA689 /* UserStack.swift */; };
 		ACEA4B7F260DA86500AFA689 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEA4B67260DA0CB00AFA689 /* UserModel.swift */; };
 		ACEA4B83260DA86700AFA689 /* UserStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEA4B71260DA18500AFA689 /* UserStack.swift */; };
+		ACEA4B942611CDB300AFA689 /* ViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEA4B932611CDB300AFA689 /* ViewControllerTest.swift */; };
+		ACEA4B982611CE1300AFA689 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEA4B38260D9E3E00AFA689 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,7 @@
 		ACEA4B58260D9E4200AFA689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACEA4B67260DA0CB00AFA689 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		ACEA4B71260DA18500AFA689 /* UserStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStack.swift; sourceTree = "<group>"; };
+		ACEA4B932611CDB300AFA689 /* ViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +126,7 @@
 			children = (
 				ACEA4B4B260D9E4100AFA689 /* UserStackWithTestingTests.swift */,
 				ACEA4B4D260D9E4100AFA689 /* Info.plist */,
+				ACEA4B932611CDB300AFA689 /* ViewControllerTest.swift */,
 			);
 			path = UserStackWithTestingTests;
 			sourceTree = "<group>";
@@ -294,8 +298,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACEA4B982611CE1300AFA689 /* ViewController.swift in Sources */,
 				ACEA4B7F260DA86500AFA689 /* UserModel.swift in Sources */,
 				ACEA4B83260DA86700AFA689 /* UserStack.swift in Sources */,
+				ACEA4B942611CDB300AFA689 /* ViewControllerTest.swift in Sources */,
 				ACEA4B4C260D9E4100AFA689 /* UserStackWithTestingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
