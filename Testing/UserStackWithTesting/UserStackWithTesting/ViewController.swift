@@ -50,4 +50,8 @@ class ViewController: UIViewController {
         print("There are \(userStack.userArrayCount) users")
     }
     
+    func clearUserInfo(){
+        thisUser = UserModel(firstName: "", lastName: "", age: 0, userName: "", password: "")
+    }
+    
 }
