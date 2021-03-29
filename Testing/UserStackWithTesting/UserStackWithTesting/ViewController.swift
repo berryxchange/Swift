@@ -48,6 +48,7 @@ class ViewController: UIViewController {
         userStack.pushToUserStack(user: thisUser)
         
         print("There are \(userStack.userArrayCount) users")
+        print("All set!")
     }
     
 }
